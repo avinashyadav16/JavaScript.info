@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+    <style>
+        .newClass {
+            background-color: rgb(123, 0, 255);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Activity 1: Select an HTML element by its ID and change its text content. -->
+    <div id="elementId">Original text content</div>
+    
+    
+    <!-- Activity 2: Select an HTML element by its class and change its background color. -->
+    <div class="elementClass">Change my background color</div>
+
+    <!-- Activity 3:  -->
+    <ul id="ulId">
+        <li>Existing list item</li>
+    </ul>
+
+    <!-- Activity 3 -->
+    <div id="parentElementId">
+        <div id="elementToRemoveId">Remove me</div>
+        <div>Another child</div>
+    </div>
+
+    <!-- Activity 4 -->
+    <img id="imageId" src="Day-9.png" alt="Sample Image">
+    <div id="elementIdToModifyClass">Modify my class</div>
+    <button id="buttonId">Click me</button>
+    <p id="paragraphId">Original paragraph text</p>
+    <div id="hoverElementId">Hover over me to change my border color</div>
+
+    <script>
+        // Activity 1: Selecting and Manipulating Elements
+        document.getElementById('elementId').textContent = 'New text content';
+
+        // Activity 2: Select an HTML element by its class and change its background color.
+        document.querySelector('.elementClass').style.backgroundColor = 'blue';
+
+        // Activity 3: Creating and Appending Elements
+        const newDiv = document.createElement('div');
+        newDiv.textContent = 'This is a new div';
+        document.body.appendChild(newDiv);
+
+        // Task 4
+        const newLi = document.createElement('li');
+        newLi.textContent = 'This is a new list item';
+        document.querySelector('ul').appendChild(newLi);
+
+        // Activity 5: Removing Elements
+        const elementToRemove = document.getElementById('elementToRemoveId');
+        elementToRemove.parentNode.removeChild(elementToRemove);
+
+        // Task 6
+        const parentElement = document.getElementById('parentElementId');
+        parentElement.removeChild(parentElement.lastElementChild);
+
+        // Activity 7: Modifying Attributes and Classes
+        document.getElementById('imageId').src = 'Day-9.png';
+
+        // Task 8
+        const element = document.getElementById('elementIdToModifyClass');
+        element.classList.add('newClass');
+        element.classList.remove('oldClass');
+
+        // Task 9
+        document.getElementById('buttonId').addEventListener('click', function () {
+            document.getElementById('paragraphId').textContent = 'Text changed on button click';
+        });
+
+        // Task 10
+        document.getElementById('hoverElementId').addEventListener('mouseover', function () {
+            this.style.borderColor = 'red';
+        });
+    </script>
+
+</body>
+
+</html>
