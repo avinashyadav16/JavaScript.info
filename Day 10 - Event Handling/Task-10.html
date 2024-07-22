@@ -1,0 +1,32 @@
+<!-- Activity 5: Event Delegation -->
+<!-- • Task 10: Add an event listener to a parent element that listens for events from dynamically added child elements. -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Task 10</title>
+</head>
+
+<body>
+    <div id="parent">
+        <button id="addButton">Add Child</button>
+    </div>
+
+    <script>
+        document.getElementById('parent').addEventListener('click', function (event) {
+            if (event.target.classList.contains('child')) {
+                alert(`Child clicked: ${event.target.textContent}`);
+            }
+        });
+
+        document.getElementById('addButton').addEventListener('click', function () {
+            const newChild = document.createElement('div');
+            newChild.textContent = 'New Child';
+            newChild.classList.add('child');
+            document.getElementById('parent').appendChild(newChild);
+        });
+    </script>
+</body>
+
+</html>

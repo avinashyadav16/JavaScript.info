@@ -1,0 +1,21 @@
+<!-- Activity 3: Keyboard Events -->
+<!-- • Task 5: Add a keydown event listener to an input field that logs the key pressed to the console. -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Task 5</title>
+</head>
+
+<body>
+    <input type="text" id="inputField" placeholder="Type something">
+
+    <script>
+        document.getElementById('inputField').addEventListener('keydown', function (event) {
+            console.log(`Key pressed: ${event.key}`);
+        });
+    </script>
+</body>
+
+</html>
