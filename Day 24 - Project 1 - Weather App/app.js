@@ -20,6 +20,10 @@
 //              Task 9: Add icons to represent weather conditions.
 //                       Use weather icons based on the weather data:
 
+
+
+
+// Paste your API key from the openweathermap website for the loading of the data:
 const apiKey = 'YOUR_API_KEY_FROM_OPENWEATHERMAP';
 
 // Function to fetch current weather data
