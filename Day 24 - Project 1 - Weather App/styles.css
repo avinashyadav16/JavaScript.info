@@ -1,0 +1,35 @@
+/* Task 2: Add a basic CSS file to style the weather app. */
+/*          Create a styles.css file. */
+/*          Add basic styles: */
+/*          Update styles.css to style the input and button */
+/* Task 10: Add CSS animations or transitions. */
+/*          Add CSS transitions for smooth updates */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+    transition: transform 0.5s;
+}
+
+.container:hover {
+    transform: scale(1.05);
+}
+
+#weather-info, #forecast-info {
+    margin-top: 20px;
+    font-size: 20px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+input, button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
