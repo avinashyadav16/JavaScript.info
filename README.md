@@ -3,7 +3,7 @@
 <div align="center">
 	<a href="https://github.com/avinashyadav16/JavaScript.info"><img src="https://www.svgrepo.com/show/303206/javascript-logo.svg" alt="JavaScripts Logo" width="100px"/></a>
 	<h1>JavaScript.info</h1>
-	<h3>A dynamic repository that contains all the details about JavaScript.</h3>
+	<h3>A dynamic repository that contains all the important concepts about JavaScript.</h3>
     <p>
         <a name="JavaScript_Badge"><img src="https://img.shields.io/badge/JavaScript-lightgray?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"></a>
         <a name="jQuery_Badge"><img src="https://img.shields.io/badge/jQuery-lightgray?style=for-the-badge&logo=jquery&logoColor=%230769AD"></a>
@@ -21,9 +21,41 @@
 
 ---
 
-# Task To Follow For 30 Days:
+# Directory Overview
 
-## Directory Overview
+## THEORY:
+
+|         |                                                                                                                |
+| ------- | -------------------------------------------------------------------------------------------------------------- |
+| **01:** | [JavaScript Fundamentals](./01_JavaScript_Fundamentals.md)                                                     |
+| **02:** | [Code Structure](./02_Code_Structure.md)                                                                       |
+| **03:** | [The Modern Mode use strict](./03_The_Modern_Mode_use_strict.md)                                               |
+| **04:** | [Execution Context](./04_Execution_Context.md)                                                                 |
+| **05:** | [Execution Context And Call Stack](./05_Execution_Context_And_Call_Stack.md)                                   |
+| **06:** | [Hoisting](./06_Hoisting.md)                                                                                   |
+| **07:** | [Functions And Variable Environment](./07_Functions_And_Variable_Environment.md)                               |
+| **08:** | [window And this](./08_window_And_this.md)                                                                     |
+| **09:** | [undefined v/s not defined](./09_undefined_vs_not_defined.md)                                                  |
+| **10:** | [Scope And Lexical Environment](./10_Scope_And_Lexical_Environment.md)                                         |
+| **11:** | [let And const deadzone errors](./11_let_And_const_deadzone_errors.md)                                         |
+| **12:** | [Block Scope And Shadowing](./12_Block_Scope_And_Shadowing.md)                                                 |
+| **13:** | [Closures](./13_Closures.md)                                                                                   |
+| **14:** | [setTimeout() And closures](./14_setTimeout_And_closures.md)                                                   |
+| **15:** | [JS Interview On closures](./15_JS_Interview_closures.md)                                                      |
+| **16:** | [Functions](./16_Functions.md)                                                                                 |
+| **17:** | [Callbacks And EventListeners](./17_Callbacks_And_EventListeners.md)                                           |
+| **18:** | [Async And EventLoops](./18_Async_And_EventLoops.md)                                                           |
+| **19:** | [JS Engine And ChromeV8](./19_JS_Engine_And_ChromeV8.md)                                                       |
+| **20:** | [setTimeout()](<./20_setTimeout().md>)                                                                         |
+| **21:** | [Higher Order Functions And Functional Programming](./21_Higher_Order_Functions_And_Functional_Programming.md) |
+| **22:** | [map filter reduce](./22_map_filter_reduce.md)                                                                 |
+| **23:** | [CallBack Hell](./23_CallBack_Hell.md)                                                                         |
+| **24:** | [Promises](./24_Promises.md)                                                                                   |
+| **25:** | [Creating A Promise, Chaining And Error Handling](./25_Creating_A_Promise_Chaining_And_Error_Handling.md)      |
+| **26:** | [async await](./26_async_await.md)                                                                             |
+| **27:** | [Promise APIs](./27_Promise_APIs.md)                                                                           |
+
+## TASKS:
 
 |             |                                                                                                             |
 | ----------- | ----------------------------------------------------------------------------------------------------------- |
@@ -52,7 +84,7 @@
 | **Day 22:** | [LeetCode Medium 🥈](./Day%2022%20-%20Leetcode%20Medium/Day-22.png)                                         |
 | **Day 23:** | [LeetCode Hard 🥇](./Day%2023%20-%20Leetcode%20Hard/Day-23.png)                                             |
 
-## PROJECTS
+## PROJECTS:
 
 |             |                                                                                                                                                        |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -70,57 +102,14 @@
 - [JavaScript Interactive Documentation](https://www.learn-js.org/)
 - [JavaScript MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-# How to Get Started
-
-## 🔥 Clone this Repository
-
-Ensure you have the following installed:
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/) (if applicable)
-
-1. **To clone this repository, use the following command:**
-
-   ```bash
-   git clone https://github.com/avinashyadav16/JavaScript.info.git
-   ```
-
-2. **Navigate to the project directory:**
-
-   ```bash
-   cd JavaScript.info
-   ```
-
-3. **Install dependencies:**
-
-   ```bash
-   npm install
-   ```
-
-4. **Start the project:**
-
-   ```bash
-   npm start
-   ```
-
-5. Practice each day from the `day-{}.png` file under each day folder.
-   OR
-6. Read The markdown File Under Each Directory
-
 ## 💼 Contribution
 
-Contributions are most weelcomed! I'll be grateful for the valuable contributions from developer's community.
+Contributions are most welcomed! I'll be grateful for the valuable contributions from developer's community.
 
 ## ⭐ Stargazers
 
 🌟 Thank you for starring the project! Your support means a lot and helps to continue improving. Feel free to adjust it to match your tone and style!
 
-## 🔧 Forkers
-
-🍴 Thank you for forking theproject! Your interest and contributions helps to grow and improve. I appreciate your support!
-
----
-
-Happy Challenging Learning! 🔥🔥🔥
+Happy Challenging Coding Learning! 🔥🔥🔥
 
 ---
