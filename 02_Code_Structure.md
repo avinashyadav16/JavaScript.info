@@ -1,4 +1,4 @@
-# 🧱 JavaScript Code Structure
+# CHAPTER 02: 🧱 JavaScript Code Structure
 
 The building blocks of code.
 
@@ -15,7 +15,8 @@ alert("Hello, world!");
 We can have as many statements in our code as we want. They can be separated with a semicolon (`;`):
 
 ```js
-alert("Hello"); alert("World");
+alert("Hello");
+alert("World");
 ```
 
 But usually, for readability, we write them on separate lines:
@@ -34,8 +35,8 @@ Semicolons can be **omitted** in many cases where a line break exists:
 This would also work:
 
 ```js
-alert("Hello")
-alert("World")
+alert("Hello");
+alert("World");
 ```
 
 Here, JavaScript interprets the line break as an **implicit** semicolon. This is called **automatic semicolon insertion**. But be careful—**not all cases** are safe.
@@ -45,9 +46,7 @@ Here, JavaScript interprets the line break as an **implicit** semicolon. This is
 Example:
 
 ```js
-alert(3 + 
-1 
-+ 2);
+alert(3 + 1 + 2);
 ```
 
 ✅ This works as expected and shows `6` because JavaScript does not insert semicolons here. JavaScript knows the line ends in `+`, so it continues.
@@ -71,12 +70,10 @@ Hello
 But if you remove the semicolon after the `alert`:
 
 ```js
-alert("Hello")
-
-[(1, 2)].forEach(alert);
+alert("Hello")[(1, 2)].forEach(alert);
 ```
 
-It fails! 
+It fails!
 The difference compared to the code above is only one character: the semicolon at the end of the first line is gone.
 
 If we run this code, only the first Hello shows (and there’s an error, you may need to open the console to see it). There are no numbers any more.
@@ -151,3 +148,17 @@ alert('World');
 
 - Single-line comment: `Ctrl + /` (or `Cmd + /` on Mac)
 - Multiline comment: `Ctrl + Shift + /` (or `Cmd + Option + /` on Mac)
+
+---
+
+<br><br>
+
+<p align="left">
+  <a href="./01_JavaScript_Fundamentals.md"><b>‹ GO TO PREVIOUS</b></a>
+</p>
+
+<p align="right">
+  <a href="./03_The_Modern_Mode_use_strict.md"><b>GO TO NEXT ›</b></a>
+</p>
+
+---

@@ -1,4 +1,4 @@
-# Episode 9 : Block Scope and Shadowing
+# CHAPTER 12: Block Scope and Shadowing
 
 ### What is a block?
 
@@ -54,8 +54,7 @@ Outputs:
   - In the BLOCK SCOPE; we get b and c inside it initialized as _undefined_ as a part of hoisting (in a seperate memory space called block)
   - While, a is stored inside a GLOBAL scope.
 
-- Thus we say, _let_ and _const_ are BLOCK SCOPED. They are stored in a separate mem space which is reserved for this block. Also, they can't be accessed outside this block.
-  But var a can be accessed anywhere as it is in global scope.
+- Thus we say, _let_ and _const_ are BLOCK SCOPED. They are stored in a separate mem space which is reserved for this block. Also, they can't be accessed outside this block. But var a can be accessed anywhere as it is in global scope.
 - Thus, we can't access them outside the Block.
 
 ### **What is SHADOWING in JS?**
@@ -161,3 +160,17 @@ function x() {
   var a = 20;
 }
 ```
+
+---
+
+<br><br>
+
+<p align="left">
+  <a href="./11_let_And_const_deadzone_errors.md"><b>‹ GO TO PREVIOUS</b></a>
+</p>
+
+<p align="right">
+  <a href="./13_Closures.md"><b>GO TO NEXT ›</b></a>
+</p>
+
+---

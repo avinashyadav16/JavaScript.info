@@ -1,4 +1,4 @@
-# 🛡️ JavaScript Strict Mode – `"use strict"`
+# CHAPTER 03: 🛡️ JavaScript Strict Mode – `"use strict"`
 
 ## 📜 What is `"use strict"`?
 
@@ -103,3 +103,17 @@ But… when you start using **classes** or **modules**, strict mode is enabled a
 ---
 
 Stay strict, code safe! 💻🔒
+
+---
+
+<br><br>
+
+<p align="left">
+  <a href="./02_Code_Structure.md"><b>‹ GO TO PREVIOUS</b></a>
+</p>
+
+<p align="right">
+  <a href="./04_Execution_Context.md"><b>GO TO NEXT ›</b></a>
+</p>
+
+---

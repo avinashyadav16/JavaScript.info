@@ -1,4 +1,4 @@
-# Episode 2 : Execution & Call Stack
+# CHAPTER 05: Execution & Call Stack
 
 **What happens when we run a js program?**
 
@@ -16,7 +16,7 @@ var square2 = square(n);
 var square4 = square(4);
 ```
 
-Now first, for this entire code a <strong>Global</strong> execution context is created.
+Now first, for this entire code a **Global** execution context is created.
 
 So, this execution context is created in 2 phases:
 
@@ -28,7 +28,7 @@ So, this execution context is created in 2 phases:
 Here JS will allocate memory to all the variables and functions whenever they are encounterd while running whole js program line by line. In case of variables, it stores a special value called _undefined_, and in case of functions it literally stores the whole code of the function inside this memory space.
 
 - Memory is allocated to variables and functions.
-- For variable name(which is key) it assigns a value of <strong>undefined</strong>
+- For variable name(which is key) it assigns a value of **undefined**
 - For the function name(which is key) it assigns the entire function code as value.
 
 ```javascript
@@ -56,3 +56,17 @@ To manage all these EC, a **call stack** is created. Everytime code is run, the 
 > Call Stack maintains the order of execution of execution contexts
 
 #### Call stack also known as Execution control stack, program stack, control stack, runtime stack and machine stack
+
+---
+
+<br><br>
+
+<p align="left">
+  <a href="./04_Execution_Context.md"><b>‹ GO TO PREVIOUS</b></a>
+</p>
+
+<p align="right">
+  <a href="./06_Hoisting.md"><b>GO TO NEXT ›</b></a>
+</p>
+
+---

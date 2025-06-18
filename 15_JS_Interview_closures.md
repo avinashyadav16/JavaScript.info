@@ -1,4 +1,4 @@
-## Important Concept:
+# CHAPTER 15: Important Concept:
 
 - Closures are used in encapsulation and data hiding.
 
@@ -102,3 +102,17 @@ Once `a()` is called, its element `x` should be garbage collected ideally. But f
 Like this if more closures formed, it becomes an issue. To tacke this, JS engines like v8 and Chrome have smart garbage collection mechanisms.
 
 Say we have var `x = 0`, `z = 10` in above code. When console log happens, `x` is printed as `0` but `z` is removed automatically.
+
+---
+
+<br><br>
+
+<p align="left">
+  <a href="./14_setTimeout_And_closures.md"><b>‹ GO TO PREVIOUS</b></a>
+</p>
+
+<p align="right">
+  <a href="./16_Functions.md"><b>GO TO NEXT ›</b></a>
+</p>
+
+---

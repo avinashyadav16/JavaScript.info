@@ -1,4 +1,4 @@
-# Episode 3 : Hoisting
+# CHAPTER 06: Hoisting
 
 ## Code Example 01
 
@@ -60,7 +60,11 @@ Output:
 - Not defined: We have not initialised the value for variable anywhere in the entire code and in memory space.
 - Undefined: It is a placeholder that is assigned to a variable by the Javascript Engine until the variable is assigned with some other value.
 
-**Hoisting** is a concept which enables us to extract values of variables and functions even before initialising/assigning value without getting _error_
+---
+
+**`Hoisting`** is a concept which enables us to extract values of variables and functions even before initialising/assigning value without getting _error_
+
+---
 
 <br>
 
@@ -134,3 +138,17 @@ Output:
 - The answer lies in the Global Execution Context. In the memory phase, the variables will be initialized as _undefined_ and functions will get the whole function code in their memory.
 
 - This is the reason why we are getting these outputs.
+
+---
+
+<br><br>
+
+<p align="left">
+  <a href="./05_Execution_Context_And_Call_Stack.md"><b>‹ GO TO PREVIOUS</b></a>
+</p>
+
+<p align="right">
+  <a href="./07_Functions_And_Variable_Environment.md"><b>GO TO NEXT ›</b></a>
+</p>
+
+---

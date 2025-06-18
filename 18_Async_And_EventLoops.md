@@ -131,3 +131,17 @@ console.log("End");
 4. **How does it matter if we delay for setTimeout would be 0ms. Then callback will move to queue without any wait ?**
 
    No, there are trust issues with setTimeout(). The callback function needs to wait until the Call Stack is empty. So the 0 ms callback might have to wait for 100ms also if the stack is busy.
+
+---
+
+<br><br>
+
+<p align="left">
+  <a href="./17_Callbacks_And_EventListeners.md"><b>‹ GO TO PREVIOUS</b></a>
+</p>
+
+<p align="right">
+  <a href="./19_JS_Engine_And_ChromeV8.md"><b>GO TO NEXT ›</b></a>
+</p>
+
+---

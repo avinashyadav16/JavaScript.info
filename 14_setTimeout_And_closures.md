@@ -1,4 +1,4 @@
-# Episode 11 : setTimeout + Closures Interview Question
+# CHAPTER 14: setTimeout + Closures Interview Question
 
 > Time, tide and Javascript wait for none
 
@@ -109,3 +109,17 @@ x();
     3
     4
     5
+
+---
+
+<br><br>
+
+<p align="left">
+  <a href="./13_Closures.md"><b>‹ GO TO PREVIOUS</b></a>
+</p>
+
+<p align="right">
+  <a href="./15_JS_Interview_closures.md"><b>GO TO NEXT ›</b></a>
+</p>
+
+---

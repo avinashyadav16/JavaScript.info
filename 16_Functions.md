@@ -1,4 +1,4 @@
-# Episode 14: First class Functions and Anonymous functions
+# CHAPTER 16: First class Functions and Anonymous functions
 
 ## Function statement OR Function Declaration:
 
@@ -97,7 +97,7 @@ xyz(); // Throws Uncaught ReferenceError: xyz is not defined.
 
 ## Parameters v/s Arguments
 
-When we create and name a function and put some identifiers/variabels in the parenthesis ( ) following it, that variables are called as Parameters.
+When we create and name a function and put some identifiers/variabels in the parenthesis `( )` following it, that variables are called as Parameters.
 
 Ex:
 
@@ -109,7 +109,7 @@ function ab(param1, param2) {
 }
 ```
 
-When we call this function and pass a variable/value in the parenthesis ( ) _followed by function name_, that is our Arguments.
+When we call this function and pass a variable/value in the parenthesis `( )` _followed by function name_, that is our Arguments.
 Ex:
 
 ```javascript
@@ -172,3 +172,17 @@ console.log(b());
 ```
 
 Function are heart of JS. They are called first class citizens or first class functions because they have the ability to be stored in the variables, passed as parameters and arguments. They can also be returned in the function.
+
+---
+
+<br><br>
+
+<p align="left">
+  <a href="./15_JS_Interview_closures.md"><b>‹ GO TO PREVIOUS</b></a>
+</p>
+
+<p align="right">
+  <a href="./17_Callbacks_And_EventListeners.md"><b>GO TO NEXT ›</b></a>
+</p>
+
+---

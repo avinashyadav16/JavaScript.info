@@ -1,4 +1,4 @@
-# Episode 8 : let, const, temporal dead zone, types of errors
+# CHAPTER 11: let, const, temporal dead zone, types of errors
 
 > let and const declarations are hoisted. But it's different from var since they are in temporal deadzone for a time being.
 
@@ -16,12 +16,14 @@ var b = 15;
 
 It looks like let isn't hoisted, **but it is**
 
-- Both a and b are actually initialized as _undefined_ in hoisting stage. But var b is inside the storage space of GLOBAL, and a is in a separate memory(script), where it can be accessed only after assigning some value to it first.
+- Both `a` and `b` are actually initialized as _undefined_ in hoisting stage. But var `b` is inside the storage space of GLOBAL, and `a` is in a separate memory(script), where it can be accessed only after assigning some value to it first.
 - i.e. one can access 'a' only if it is assigned. Thus, it throws error.
-- **Temporal Dead Zone** : Time since when the let variable was hoisted until it is initialized some value.
+
+> **Temporal Dead Zone** : Time since when the let variable was hoisted until it is initialized some value.
+
 - So any line till before "let a = 10" is the TDZ for a
 - Since a is not accessible on global, its not accessible in _window/this_ also
-  > window.b or this.b -> 15; But window.a or this.a ->undefined, just like window.x->undefined (x isn't declared anywhere)
+  > `window.b` or `this.b` -> 15; But `window.a` or `this.a ->undefined`, just like `window.x->undefined` (x isn't declared anywhere)
 
 ```javascript
 let a = 10;
@@ -67,15 +69,15 @@ b = 1000;
 
 - Till now 3 types of errors have been covered: Syntax, Reference, and Type.
 
-* Uncaught ReferenceError: x is not defined at ...
+* `Uncaught ReferenceError: x is not defined at ...`
 
   - This Error signifies that x has never been in the scope of the program. This literally means that x was never defined/declared and is being tried to be accesed.
 
-* Uncaught ReferenceError: cannot access 'a' before initialization
+* `Uncaught ReferenceError: cannot access 'a' before initialization`
 
   - This Error signifies that 'a' cannot be accessed because it is declared as 'let' and since it is not assigned a value, it is its Temporal Dead Zone. Thus, this error occurs.
 
-* Uncaught SyntaxError: Identifier 'a' has already been declared
+* `Uncaught SyntaxError: Identifier 'a' has already been declared`
 
   - This Error signifies that we are redeclaring a variable that is 'let' declared. No execution will take place.
 
@@ -125,3 +127,17 @@ The Errors that occurs if no reference is available for access. Can occur when t
 - Declare and initialize all variables with let to the top to avoid errors to shrink temporal dead zone window to zero.
 
 **NOTE**: If in any interview when asked "Are let and const hoisted?" explain fully about temporal deadzone and all the above concepts too
+
+---
+
+<br><br>
+
+<p align="left">
+  <a href="./10_Scope_And_Lexical_Environment.md"><b>‹ GO TO PREVIOUS</b></a>
+</p>
+
+<p align="right">
+  <a href="./12_Block_Scope_And_Shadowing.md"><b>GO TO NEXT ›</b></a>
+</p>
+
+---

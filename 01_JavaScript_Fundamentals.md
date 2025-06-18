@@ -1,4 +1,4 @@
-# 👋 Hello, World!
+# CHAPTER 01: 👋 Hello, World!
 
 ## 🧩 The `<script>` Tag
 
@@ -122,5 +122,13 @@ Use separate `<script>` tags instead:
   alert(1); // ✅ works
 </script>
 ```
+
+---
+
+<br><br>
+
+<p align="right">
+  <a href="./02_Code_Structure.md"><b>GO TO NEXT ›</b></a>
+</p>
 
 ---

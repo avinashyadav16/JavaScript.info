@@ -1,4 +1,4 @@
-# Episode 6: Undefined vs Not Defined
+# CHAPTER 09: Undefined vs Not Defined
 
 - In first phase (memory allocation) JS assigns each variable to a placeholder called _undefined_
 - _undefined_ is when memory is allocated for the variable, but no value is assigned yet.
@@ -20,5 +20,19 @@ console.log(a);
         25
         Uncaught ReferenceError: a is not defined
 
-- JS is a loosely-typed / weakly-typed language. It doesn't attach variables to any datatype. We can say var a = 5, and then change the value to bool (a = true) or string (a = 'hello') later on.
+- JS is a loosely-typed / weakly-typed language. It doesn't attach variables to any datatype. We can say `var a = 5`, and then change the value to bool (`a = true`) or string (`a = 'hello'`) later on.
 - **Never** assign _undefined_ to a variable manually. Let it happen on it's own accord.
+
+---
+
+<br><br>
+
+<p align="left">
+  <a href="./08_window_And_this.md"><b>‹ GO TO PREVIOUS</b></a>
+</p>
+
+<p align="right">
+  <a href="./10_Scope_And_Lexical_Environment.md"><b>GO TO NEXT ›</b></a>
+</p>
+
+---

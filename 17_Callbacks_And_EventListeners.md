@@ -105,3 +105,17 @@ attachEventList();
 - Event listeners consume a lot of memory which can potentially slow down the website therefore it is good practice to remove if it is not used.
 - **So we remove event listeners when we don't need them (garbage collected)**
 - onClick, onHover, onScroll all in a page can slow it down heavily.
+
+---
+
+<br><br>
+
+<p align="left">
+  <a href="./16_Functions.md"><b>‹ GO TO PREVIOUS</b></a>
+</p>
+
+<p align="right">
+  <a href="./18_Async_And_EventLoops.md"><b>GO TO NEXT ›</b></a>
+</p>
+
+---
